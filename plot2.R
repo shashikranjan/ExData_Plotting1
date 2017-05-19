@@ -5,9 +5,8 @@
 #     The name of the file is household_power_consumption.txt
 
 #     Thoughts on the plot to be generated
-#     This looks like a time seriesp plot of of Global_active_power for the 2 days under consideration.
+#     This looks like a line chart plot of of Global_active_power for the 2 days under consideration.
 #     We would need to combine Date and Time to a single column having date as well as time in the day.
-#     Separately, the x axis of the plot needs to be labeled as the weekdays
 
 
 #     Read the dataset into a data table
@@ -52,6 +51,6 @@ with( mydataset,
       ))
 dev.off()
 
-#     This saved a rPlot2.png file in the working directory. Looking at the file,
+#     This saved a plot2.png file in the working directory. Looking at the file,
 #     it indeed looks like the plot we wanted to create.
 

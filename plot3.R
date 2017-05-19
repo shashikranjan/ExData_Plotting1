@@ -5,10 +5,9 @@
 #     The name of the file is household_power_consumption.txt
 
 #     Thoughts on the plot to be generated
-#     This looks like a time series plot of of Sub_metering_1/2/3 for the 2 days under consideration.
+#     This looks like a line chart plot of of Sub_metering_1/2/3 for the 2 days under consideration.
 #     This can be shown as a line chart with different colors for the three attributes.
 #     We would need to combine Date and Time to a single column having date as well as time in the day.
-#     Separately, the x axis of the plot needs to be labeled as the weekdays
 
 
 #     Read the dataset into a data table
@@ -71,6 +70,6 @@ legend( "topright",
       lty = 1)
 dev.off()
 
-#     This saved a rPlot3.png file in the working directory. Looking at the file,
+#     This saved a plot3.png file in the working directory. Looking at the file,
 #     it indeed looks like the plot we wanted to create.
 

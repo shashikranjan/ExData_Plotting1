@@ -42,7 +42,7 @@ hist( mydataset$Global_active_power,
       col = "red")
 dev.off()
 
-#     This saved a rPlot1.png file in the working directory. Looking at the file,
+#     This saved a plot1.png file in the working directory. Looking at the file,
 #     it indeed looks like the plot we wanted to create.
 
 

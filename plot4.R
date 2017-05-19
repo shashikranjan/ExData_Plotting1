@@ -102,6 +102,6 @@ with(mydataset, plot(
 
 dev.off()
 
-#     This saved a rPlot4.png file in the working directory. Looking at the file,
+#     This saved a plot4.png file in the working directory. Looking at the file,
 #     it indeed looks like the plot we wanted to create.
 
